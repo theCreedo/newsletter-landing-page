@@ -9,12 +9,23 @@
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+.social {
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.navContainer {
+  overflow:hidden;
+  display:inline;
 }
 
 .footer {
