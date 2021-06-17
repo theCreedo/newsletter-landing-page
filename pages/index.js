@@ -21,8 +21,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://ericlee.substack.com/">Savvy Saturdays</a>
         </h1>
-        <div className={styles.main}>
-          <iframe src="https://ericlee.substack.com/embed" width="480" height="320" frameBorder="0" scrolling="no"></iframe>
+        <div className={styles.newsletter}>
+          <iframe src="https://ericlee.substack.com/embed" width="320" height="320" frameBorder="0" scrolling="no"></iframe>
         </div>
       </main>
 
@@ -32,7 +32,7 @@ export default function Home() {
           <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={linkedin_url} />
           <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} /> 
         </div>
-        <div className={styles.social}>
+        <div className={styles.copyright}>
             <small>Copyright © Eric Lee <span id="year">{new Date().getFullYear()}</span></small>
         </div>
       </footer>
